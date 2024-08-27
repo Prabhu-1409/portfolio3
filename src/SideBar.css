@@ -1,0 +1,20 @@
+.SideBar{
+    /* top: 0; */
+    width: 5%;
+    background-color: aquamarine;
+    display: flex;
+}
+ul{
+    /* padding: 20% 0; */
+    width: 15%;
+    margin-top: 40%;
+    margin-bottom: 40%;
+    height: fit-content;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 150px;
+}
+li{
+    transform: rotate(0.25turn);
+}
