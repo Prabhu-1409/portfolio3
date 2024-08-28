@@ -1,0 +1,67 @@
+.NavBar{
+    /* top: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+}
+.HamBurger{
+    display: none;
+}
+.List{
+    width: 80%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* padding: 20% 0; */
+    /* width: 15%;
+    margin-top: 40%;
+    margin-bottom: 40%;
+    height: fit-content;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 150px; */
+}
+/* li{
+    transform: rotate(0.25turn);
+} */
+
+@media screen and (width<=768px) {
+    .NavBar{
+        position: relative;
+        width: 100%;
+        height: fit-content;
+        background-color: red;
+    }
+    .HamBurger{
+        display: block;
+    }
+    .List-Responsive{
+        animation: linear 3s;
+        top: 0;
+        right: 0;
+        z-index: 4;
+        position:absolute;
+        list-style: none;
+        height: fit-content;
+        background-color: purple;
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+    }   
+}
+
+@media screen and (width<=320px) {
+    .NavBar{
+        margin: 0;
+        width: 100rem;
+        background-color: purple;
+    }
+    .HamBurger{
+        display: block;
+    }  
+}
