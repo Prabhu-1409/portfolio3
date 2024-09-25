@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 .header{
     position: relative;
     margin: 0;
@@ -8,9 +12,15 @@
     /* background-color: red; */
     height: 18vh;
 }
+h3{
+    font-weight: 350;
+    font-family: 'roboto';
+}
 .header-name{
     position: relative;
     display: flex;
+    /* font-family: "Roboto"; */
+    /* font-weight: 100; */
     justify-content: center;
     align-items: center;
     height: 100%;
