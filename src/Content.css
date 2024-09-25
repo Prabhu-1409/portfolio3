@@ -3,7 +3,8 @@
 
 .designation{
     color: white;
-    /* background-color: red; */
+    height: 25vh;
+    /* background-color:green; */
     justify-content: center;
     /* background-color: gray; */
     display: flex;
@@ -23,7 +24,7 @@
     width: 100vw;
     display: flex;
     /* background-color: red; */
-    height: 70vh;
+    height: 60vh;
 }
 .software{
     width: 70%;
@@ -42,7 +43,7 @@
 }
 .projects{
     width: 50%;
-    height: 20%;
+    height: 25%;
     border: none;
     background-color: white;
     font-family: "Roboto", sans-serif;
@@ -50,19 +51,20 @@
     border-radius: 50px;
 }
 .arrow-container{
-    height: 20%;
+    height: 25%;
     background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 9%;
+    width: 8%;
     border-radius: 100px;
 }
 .arrow{
     width: 50%;
 }
 .objective{
+    height: 25vh;
     color: white;
     display: flex;
     flex-direction: row;
@@ -71,19 +73,38 @@
     justify-content: center;
 }
 .paragraph{
+    margin: 0;
     /* height: 100%; */
-    /* width: 40%; */
+    width: 38%;
     display: flex;
-    flex-direction: row;
+    /* background-color: green; */
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     /* background-color: red; */
 }
 p{
-    width: 70%;
+    margin: 0;
+    /* width: 70%; */
+    color: gray;
     font-family: "Roboto", sans-serif;
+    font-style: italic;
+}
+.alignment{
+    width: 60%;
+    /* margin: 0; */
+    column-gap: 1%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
 }
 .developer{
-    width: 70%;
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62%;
+    /* background-color: red; */
+}
+.highlighted{
+    color: whitesmoke;
 }

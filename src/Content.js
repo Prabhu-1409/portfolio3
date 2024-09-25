@@ -22,9 +22,18 @@ function Content(){
             </div>
             <div className="objective">
                 <div className="paragraph">
-                    <p>My goal is to write maintainable, clean and understandable
-                        code to process developement was enjoyable
-                    </p>
+                    <div className="alignment">
+                    <p>My goal is to write </p>
+                    <p className="highlighted">maintainable, clean</p>
+                    </div>
+                    <div className="alignment">
+                    <p>and</p>
+                    <p className="highlighted">understandable code</p>
+                    <p>to process</p> 
+                    </div>
+                    <div className="alignment">
+                    <p>developement was enjoyable</p>
+                    </div>
                 </div>
                 <div className="developer">
                     <h1 className="font">Developer</h1>
