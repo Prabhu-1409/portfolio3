@@ -3,29 +3,38 @@
 
 .designation{
     color: white;
-    background-color: gray;
+    /* background-color: red; */
+    justify-content: center;
+    /* background-color: gray; */
     display: flex;
     flex-direction: row;
     /* align-items: center; */
 }
 .font{
-    font-size: 9.5rem;
+    font-size: 8rem;
     font-family: space Mono;
     font-weight: 500;
     margin: 0;
 }
+.content-body{
+    width: 100vw;
+}
 .content{
     width: 100vw;
-    background-color: red;
+    display: flex;
+    /* background-color: red; */
     height: 70vh;
 }
 .software{
-    width: 60%;
-    background-color: purple;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: purple; */
 }
 .project-button{
     width: 40%;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     justify-content: center;
     align-items: center;
     display: flex;
@@ -34,11 +43,15 @@
 .projects{
     width: 50%;
     height: 20%;
+    border: none;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
     border-radius: 50px;
 }
 .arrow-container{
     height: 20%;
-    background-color: red;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -48,4 +61,29 @@
 }
 .arrow{
     width: 50%;
+}
+.objective{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* background-color:gray; */
+    justify-content: center;
+}
+.paragraph{
+    /* height: 100%; */
+    /* width: 40%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+p{
+    width: 70%;
+    font-family: "Roboto", sans-serif;
+}
+.developer{
+    width: 70%;
+    background-color: red;
 }
