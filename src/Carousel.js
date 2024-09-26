@@ -8,8 +8,6 @@ function Carousel() {
       <div className='gradient-left'></div>
       <div className='carousel-inner-container'>
         <Cards></Cards> 
-        {/* <Cards></Cards> 
-        <Cards></Cards>  */}
         <Cards></Cards>
         <Cards></Cards>
         <Cards></Cards>

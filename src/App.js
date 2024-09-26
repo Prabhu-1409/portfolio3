@@ -5,7 +5,7 @@ import Home from './Home';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
     {/* <SideBar></SideBar> */}
     <Home></Home>
     </div>
