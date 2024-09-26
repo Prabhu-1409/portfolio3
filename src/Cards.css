@@ -1,9 +1,14 @@
 .card{
-    width: 30%;
-    height: 80%;
+    /* width: 30%;
+    height: 85%; */
+    height: 100%;
+    width: 40%;
+    max-width: 40%;
+    min-width: 40%;
     border-radius: 40px;
     position: relative;
-    background-color: green;
+    
+    /* background-color: green; */
 }
 .card-image{
     width: 100%;

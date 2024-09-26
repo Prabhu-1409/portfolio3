@@ -5,7 +5,17 @@ import './Carousel.css'
 function Carousel() {
   return (
     <div className='carousel'>
-        <Cards></Cards>  
+      <div className='gradient-left'></div>
+      <div className='carousel-inner-container'>
+        <Cards></Cards> 
+        {/* <Cards></Cards> 
+        <Cards></Cards>  */}
+        <Cards></Cards>
+        <Cards></Cards>
+        <Cards></Cards>
+        <Cards></Cards>
+        </div> 
+        <div className='gradient-right'></div>
     </div>
   )
 }
