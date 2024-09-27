@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Cards from './Cards'
 import './Carousel.css'
+import right from './image/right.png'
+import left  from  './image/left.png'
 
 function Carousel() {
   const [style,setstyle] = useState('card')
@@ -29,11 +31,18 @@ function Carousel() {
   }
   return (
     <div className='carousel'>
-     <button className='carousel-button' onClick={()=>{setstyle('card-prev')
+     {/* <button className='carousel-button' onClick={()=>{setstyle('card-prev')
      setTimeout(()=>{
         setstyle('card')
      },2000)
-     }}>Prev</button>
+     }}>Prev</button> */}
+     <div className='carousel-button'  onClick={()=>{setstyle('card-prev')
+     setTimeout(()=>{
+        setstyle('card')
+     },2000)
+     }} >
+      <img src={left} alt='left'></img>
+     </div>
       <div className='gradient-left'></div>
       <div className='carousel-inner-container'>
         {/* <Cards></Cards> 
@@ -51,11 +60,19 @@ function Carousel() {
         }
         </div> 
         <div className='gradient-right'></div>
-        <button className='carousel-button' onClick={()=>{setstyle('card-next')
+        {/* <button className='carousel-button' onClick={()=>{setstyle('card-next')
         setTimeout(()=>{
           setstyle('card')
         },2000)
-        }}>Next</button>
+        }}>Next</button> */}
+        <div className='carousel-button' onClick={()=>{
+          setstyle('card-next')
+         setTimeout(()=>{
+          setstyle('card')
+        },2000) 
+        }}>
+          <img src={right} alt='right'></img>
+        </div>
     </div>
   )
 }
