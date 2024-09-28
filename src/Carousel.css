@@ -24,7 +24,27 @@
     align-items: center;
     column-gap: 3%;
     justify-content: center;
+    /* animation-name: slide;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+    /* animation-duration: ; */
 }
+/* @keyframes slide {
+    0%{
+        transform: translateX(0);
+    }100%{
+       transform: translateX(calc(-250px * 7));
+    }
+} */
+
+/* @keyframes translate {
+    0%{
+       translate: 50% 0 0;
+    }100%{
+       transform: translateX((calc(-250px*7)));
+    }
+} */
 .gradient-left{
     left: 0;
     z-index: 2;
