@@ -33,6 +33,7 @@ function Content(){
     ]
     return(
         <div className="content">
+        {/* <div className="animation"></div> */}
             <div className="content-body">
             <div className="designation">
                 <div className="software">
