@@ -7,25 +7,64 @@
     min-width: 40%;
     border-radius: 40px;
     position: relative;
-    /* transition: translate 0.1s infinite; */
-    /* animation-name: translate;
-    animation-duration: 20s;
+    /* animation-name: slider;
+    animation-duration: 2s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite; */
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
     /* background-color: green; */
 }
-
-/* @keyframes translate {
-     0%{
-        translate: 50% 0 0;
-     }100%{
-        transform: translateX((calc(-250px*7)));
-     }
-} */
-/* .card:hover{
-    translate: 100px 0 0;
+/* 
+@keyframes slider {
+    0%{
+        translate: 0 0 0;
+    }100%{
+        translate: 0 0 0;
+    }
 } */
 
+@keyframes slider-next {
+    0%{
+        translate: 0 0 0;
+    }100%{
+        translate: -105% 0 0;
+    }
+}
+@keyframes slider-prev {
+    0%{
+        translate: 0 0 0;
+    }100%{
+        translate: 105% 0 0;
+    }
+}
+
+
+.card-next{
+    height: 100%;
+    width: 40%;
+    max-width: 40%;
+    min-width: 40%;
+    border-radius: 40px;
+    position: relative;
+    animation-name: slider-next;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.card-prev{
+    height: 100%;
+    width: 40%;
+    max-width: 40%;
+    min-width: 40%;
+    border-radius: 40px;
+    position: relative;
+    animation-name: slider-prev;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+}
 .card-image{
     width: 100%;
     height: 100%;
