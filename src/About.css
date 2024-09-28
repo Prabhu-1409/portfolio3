@@ -1,0 +1,32 @@
+.about{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+/* .circle1{
+    position: absolute;
+    right: 0;
+    width: 20%;
+    height: 65%;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 33px;
+    border-bottom-right-radius: 33px;
+    border-bottom-left-radius: 200px;
+    border:1px solid white;
+} */
+
+.circle1{
+    position: absolute;
+    right: 0;
+    width: 38%;
+    height: 80%;
+    /* border-top-left-radius: 200px;
+    border-top-right-radius: 33px;
+    border-bottom-right-radius: 33px;
+    border-bottom-left-radius: 200px; */
+    /* margin-right: -10vw; */
+    right: -10vw;
+    border-radius: 300px;
+    border:1px solid grey;
+    /* background-color: red; */
+}
