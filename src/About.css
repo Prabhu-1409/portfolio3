@@ -4,7 +4,7 @@
 
 .about{
     /* background-color: red; */
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     margin-top: 5%;
     position: relative;
@@ -53,6 +53,7 @@
 }
 .info-para{
     /* color: green; */
+    z-index: 4;
     font-family: "Roboto", sans-serif;
 }
 .about-letter{
@@ -61,5 +62,106 @@
 }
 .about-spell{
     color:whitesmoke;
+    font-family: space Mono;
+}
+.skills{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background-color: red; */
+}
+.skills-inner{
+    display: flex;
+    width: 100%;
+}
+.programming_languages{
+    /* background-color: green; */
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 4%;
+    justify-content: center;
+}
+.image{
+    width: 45%;
+    z-index: 3;
+    height: 100%;
+    /* background-color: aqua; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.image-class{
+    height: 70%;
+    object-fit: cover;
+    width: 50%;
+    border-radius: 10px;  
+}
+.language{
+    width: 70%;
+    height: 19%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills-topics{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+.inner{
+    width: 90%;
+    height: 98%;
+    /* margin: 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 3%;
+    justify-content: center;
+    /* background-color: red; */
+}
+.skills-content{
+    margin: 0;
+    color: black;
+    font-family: space Mono;
+}
+.frontend{
+    width: 70%;
+    height: 19%;
+    /* background-color: white; */
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-frontend{
+    width: 90%;
+    height: 98%;
+    /* margin: 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 3%;
+    justify-content: center;
+}
+.skills-topics-1{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+.skills-content-1{
+    margin: 0;
+    color: white;
     font-family: space Mono;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import './About.css'
+import image from './image/image.png'
 
 
 function About(){
@@ -16,13 +17,45 @@ function About(){
                 </div>
             </div>
             <div className="skills">
-                <div>
+                <div className="skills-inner">
                 <div className="programming_languages">
-
-                </div>
+                    {/* <p>This meant that the R function remotes::system_requirements("ubuntu", "20.04") could not find a package in the specified folder. Once I had added the information simply through: remotes::system_requirements("ubuntu", "20.04","myfunctionname") everything worked.</p> */}
+                    <div className="language">
+                        <div className="inner">
+                        <h3 className="skills-topics">Programming languages</h3>
+                        <p className="skills-content">
+                            Java / C / Python for Machine Learning & Deep Learning
+                        </p>
+                        </div>
+                    </div>
+                    <div className="frontend">
+                        <div className="inner-frontend">
+                        <h3 className="skills-topics-1">FrontEnd</h3>
+                        <p className="skills-content-1">
+                            React / HTML / CSS / Tailwind / Flutter / React Native / BootStrap / Redux Toolkit
+                        </p>
+                        </div>
+                    </div>
+                    <div className="language">
+                        <div className="inner">
+                        <h3 className="skills-topics">BackEnd</h3>
+                        <p className="skills-content">
+                            Nodejs / Expressjs / MySQL / MongoDB
+                        </p>
+                        </div>
+                    </div>
+                    <div className="frontend">
+                        <div className="inner-frontend">
+                        <h3 className="skills-topics-1">Data Structures & Algorithms</h3>
+                        <p className="skills-content-1">
+                           Array / LinkedList / Stack / Queue
+                        </p>
+                        </div>
+                    </div>
                 </div>
                 <div className="image">
-
+                    <img className="image-class" src={image} alt="image"></img>
+                </div>
                 </div>
             </div>
         </div>
