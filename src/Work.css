@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.work{
+    height: 40vh;
+    width: 100vw;
+    /* background-color: red; */
+}
+.work-title-cont{
+    height: 50%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: flex-end; */
+}
+.work-title-inner-cont{
+    /* background-color: aqua; */
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.work-title{
+    margin: 0;
+    font-size: 60pt;
+    font-family: space Mono;
+    color: white;
+    /* background-color: aqua;
+    font-size: 5%; */
+}
+.work-exp{
+    /* height: fit-content;
+    width: fit-content; */
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    /* background-color: antiquewhite; */
+}
+.first-experience{
+    width: 95%;
+    height: 70%;
+    border-radius: 10px;
+    /* background-color: aquamarine; */
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.technology{
+    width: 25%;
+}
+.role{
+    width: 20%;
+}
+.company-name{
+    width: 20%;
+}
+.years{
+    width: 20%;
+}
+.years-letter{
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.company-letter{
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.role-letter{
+    color: white;
+    font-family: space Mono;
+}
+.technology-letter{
+    color: white;
+    font-family: space Mono;   
+}
