@@ -24,7 +24,7 @@ function About(){
                         <div className="inner">
                         <h3 className="skills-topics">Programming languages</h3>
                         <p className="skills-content">
-                            Java / C / Python for Machine Learning & Deep Learning
+                            Java / C / JavaScript
                         </p>
                         </div>
                     </div>
@@ -32,7 +32,7 @@ function About(){
                         <div className="inner-frontend">
                         <h3 className="skills-topics-1">FrontEnd</h3>
                         <p className="skills-content-1">
-                            React / HTML / CSS / Tailwind / Flutter / React Native / BootStrap / Redux Toolkit
+                            React / HTML / CSS / Tailwind / Flutter / React Native / BootStrap / Redux Toolkit / RTK Query
                         </p>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ function About(){
                         <div className="inner">
                         <h3 className="skills-topics">BackEnd</h3>
                         <p className="skills-content">
-                            Nodejs / Expressjs / MySQL / MongoDB
+                          Spring Boot / Nodejs / Expressjs
                         </p>
                         </div>
                     </div>
@@ -49,6 +49,29 @@ function About(){
                         <h3 className="skills-topics-1">Data Structures & Algorithms</h3>
                         <p className="skills-content-1">
                            Array / LinkedList / Stack / Queue
+                        </p>
+                        </div>
+                    </div>
+                    <div className="language">
+                        <div className="inner">
+                        <h3 className="skills-topics">DevOps & Containerization</h3>
+                        <p className="skills-content">
+                            Github Action Runners / Docker                         </p>
+                        </div>
+                    </div>
+                    <div className="frontend">
+                        <div className="inner-frontend">
+                        <h3 className="skills-topics-1">Databases</h3>
+                        <p className="skills-content-1">
+                           MySQL / MongoDB
+                        </p>
+                        </div>
+                    </div>
+                    <div className="language">
+                        <div className="inner">
+                        <h3 className="skills-topics">Cloud</h3>
+                        <p className="skills-content">
+                            AWS (EC2 ,SES ,Pinpoint)                        
                         </p>
                         </div>
                     </div>
